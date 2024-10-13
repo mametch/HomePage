@@ -26,11 +26,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Builds.loader.js";
+      var loaderUrl = buildUrl + "/Builds.loader.js".toLowerCase();
       var config = {
-        dataUrl: buildUrl + "/Builds.data",
-        frameworkUrl: buildUrl + "/Builds.framework.js",
-        codeUrl: buildUrl + "/Builds.wasm",
+        dataUrl: buildUrl + "/Builds.data".toLowerCase(),
+        frameworkUrl: buildUrl + "/Builds.framework.js".toLowerCase(),
+        codeUrl: buildUrl + "/Builds.wasm".toLowerCase(),
         streamingAssetsUrl: "StreamingAssets",
         companyName: "mametch",
         productName: "BeyBattleManager",
